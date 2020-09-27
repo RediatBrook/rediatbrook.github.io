@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./icon.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbourly</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<style>
+    #navbar{
+        background-color: #512DA8 ;
+        height: 60px;
+        /* box-shadow: #BDBDBD 0px 0px 10px 10px; */
+    }
+    .nav-item{
+        color: white;
+        margin-left: 20px;
+    }
+    .nav-item:hover{
+        color: #D1C4E9;
+    }
+    #inner-nav{
+        margin-right: 20px;
+        font-size: 19px;
+    }
+    #movements{
+        height: 100vh;
+        text-align: center;
+        background-color: #512DA8;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #dropdown{
+        background-color: white;
+        width: 100px ;
+    }
+    @media(max-width:800px){
+        #inner-nav{
+            display: flex;
+            flex-direction: row;
+        }  
+    }
+    #clublink{
+            color: #E040FB;
+    }
+    #card1{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 2px;
+        border-color: white;
+        box-shadow: lightgray 5px 5px 5px 5px;
+    }
+    #round{
+        border-radius: 100%;
+        margin:10px;
+        width: 150px;
+        height: 150px;
+    }
+    .clblink{
+        text-decoration: none;
+        color: black;
+    }
+    .clblink:hover{
+        color: #D1C4E9 ;
+    }
+    .citytxt{
+        margin-left: 40%;
+        margin-top: 100px;
+    }
+
+    
+</style>
+<body>
+    <nav class="navbar navbar-expand-md sticky-top" id="navbar">
+            <div class="navbar-nav ml-auto" id="inner-nav">
+                <a href="./index.html" class="nav-item nav-link">About</a>
+                <a href="./movements.html" class="nav-item nav-link">Movements</a>
+                <a href="#" class="nav-item nav-link" id="clublink">Clubs</a>
+        
+        </div>
+    </nav>
+<div class="container-fluid" id="Clubs">
+    <div id="seattlesection" style="height: 80vh;">
+    <h1 class="citytxt">Seattle</h1>
+    <div class="card mb-3" style="max-width: 1000px;" id="card1">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./avants.png" class="card-img" alt="Avants" id="round">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+            <a href="https://www.avants.com/" class="clblink" target="_blank">  
+                <h5 class="card-title">AVANTS</h5>
+              <p class="card-text">Avants is a  club for car enthusiasts in seattle.
+                Members get exclusive access to private events, tons of awesome discounts
+                 and a great community of like-minded enthusiasts. Plus, all members receive the new Avants magazine
+                  - a high-gloss quarterly publication that celebrates the unique Pacific Northwest car community. 
+              </p>
+              </a>
+              <p class="card-text"><small class="text-muted">Last updated 4 hours ago</small>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="chicagosection" style="height: 80vh;">
+        <h1 class="citytxt">Chicago</h1>
+        <div class="card mb-3" style="max-width: 1000px;" id="card1">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./chess.jpeg" class="card-img" alt="Chess Club" id="round">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                <a href="http://www.chichess.org/"
+                 class="clblink" target="_blank">  
+                    <h5 class="card-title">Chicago Chess Center</h5>
+                  <p class="card-text"> A local chess club that is trying to nurture a diverse group of chicago chess talent.
+                      They are working on making chess more accessible to students from lower income backgrounds.
+                  </p>
+                  </a>
+                  <p class="card-text"><small class="text-muted">Last updated 55 minutes ago</small>
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

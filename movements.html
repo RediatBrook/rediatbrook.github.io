@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./icon.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbourly</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<style>
+    #navbar{
+        background-color: #512DA8 ;
+        height: 60px;
+        /* box-shadow: #BDBDBD 0px 0px 10px 10px; */
+    }
+    .nav-item{
+        color: white;
+        margin-left: 20px;
+    }
+    .nav-item:hover{
+        color: #D1C4E9;
+    }
+    #inner-nav{
+        margin-right: 20px;
+        font-size: 19px;
+    }
+    #movements{
+        height: 100vh;
+        text-align: center;
+        background-color: #512DA8;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #dropdown{
+        background-color: white;
+        width: 100px ;
+    }
+    @media(max-width:800px){
+        #inner-nav{
+            display: flex;
+            flex-direction: row;
+        }  
+    }
+    #movlink{
+            color: #E040FB;
+    }
+    #card1{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 2px;
+        border-color: white;
+        box-shadow: lightgray 5px 5px 5px 5px;
+    }
+    #greenarpic{
+        border-radius: 100%;
+        margin:10px;
+        width: 150px;
+        height: 150px;
+    }
+    .mvmlink{
+        text-decoration: none;
+        color: black;
+    }
+    .mvmlink:hover{
+        color: #D1C4E9 ;
+    }
+    .citytxt{
+        margin-left: 40%;
+        margin-top: 100px;
+    }
+
+    
+</style>
+<body>
+    <nav class="navbar navbar-expand-md sticky-top" id="navbar">
+            <div class="navbar-nav ml-auto" id="inner-nav">
+                <a href="./index.html" class="nav-item nav-link">About</a>
+                <a href="#" class="nav-item nav-link" id="movlink">Movements</a>
+                <a href="./clubs.html" class="nav-item nav-link">Clubs</a>
+        
+        </div>
+    </nav>
+<div class="container-fluid" id="Movements">
+    <div id="addissection" style="height: 80vh;">
+    <h1 class="citytxt">Addis Ababa</h1>
+    <div class="card mb-3" style="max-width: 1000px;" id="card1">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./greenarea.jpg" class="card-img" alt="Green Area" id="greenarpic">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+            <a href="http://chng.it/y7GVNcQGp8" class="mvmlink" target="_blank">  
+                <h5 class="card-title">Kolfe Keranyo Green Area Initiative</h5>
+              <p class="card-text">This is a community led petition to 
+                  get permission from the government to change an unoccupied land
+                  in our neighbourhood into a local sports center and green area.
+              </p>
+              </a>
+              <p class="card-text"><small class="text-muted">Last updated 3 hours ago</small>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="miamisection" style="height: 80vh;">
+        <h1 class="citytxt">Miami</h1>
+        <div class="card mb-3" style="max-width: 1000px;" id="card1">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./demsandreps.jpg" class="card-img" alt="Green Area" id="greenarpic">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                <a href="https://www.change.org/p/citizens-of-the-united-states-of-america-bipartisan-commitment-to-peace?recruiter=1151766618&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition"
+                 class="mvmlink" target="_blank">  
+                    <h5 class="card-title">Bipartisan Commitment to Peace</h5>
+                  <p class="card-text">A movement to promote peace and and non-violent dispute resolution before and after the U.S.
+                      Presidential Election
+                  </p>
+                  </a>
+                  <p class="card-text"><small class="text-muted">Last updated 7 hours ago</small>
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
